@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Projects</title>
+    <link rel="stylesheet" href="Portofolio.css">
+</head>
+<body>
+    <header>
+        <h1>Cooking Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="projects.html">Cooking Projects</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="projects">
+        <h2>My Cooking Projects</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+         <div style="flex: 1 1 200px; background: #f0f8ff; border-radius: 10px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">  
+         <h3>Recipe 1: Spaghetti Carbonara</h3>
+            <p>The first meal that I make is a simple carbonara pasta. 
+                This is one of my go to simple meal that I like to do back in my home country, and now I am going to try to make it here. 
+                Since the ingredient for it is actually pretty simple, I feel like this will be the perfect dish to start my journey.</p>
+            <a href="#" class="view-project" data-img="Carbonara.JPG" style="color: #4f8cff;">View Project</a>   
+        </div>
+          
+        <div style="flex: 1 1 200px; background: #f0f8ff; border-radius: 10px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+            <h3>Recipe 2: Beef Saikoro and Cheesy Fried Rice</h3>
+            <p>This meal is a delicious combination of Japanese style diced beed (Saikoro) paired with a flavorful cheesy fried rice which create a perfect comfort food combo that is surprisingly easy to make. 
+                It is budget friendly, filling, packed with flavor, as well as does not require much time to make, making it a perfect option for university students.</p>
+             <a href="#" class="view-project" data-img="Saikoro.JPG" style="color: #4f8cff;">View Project</a>
+        </div>
+
+        <div style="flex: 1 1 200px; background: #f0f8ff; border-radius: 10px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+            <h3>Recipe 3: Chicken Wings</h3>
+            <p>Fried chicken wings are a classic favorite crispy on the outside, juicy on the inside, and full of flavor. 
+                They are also easy to make at home with just a few ingredients, making them perfect for university students who want a satisfying meal or snack without spending too much.</p>
+             <a href="#" class="view-project" data-img="Chicken.JPG" style="color: #4f8cff;">View Project</a>
+        </div>
+
+        <div style="flex: 1 1 200px; background: #f0f8ff; border-radius: 10px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+            <h3>Project 4: Instant Noodle Hack</h3>
+            <p>Instant noodles are a staple for many students, but they can get boring quickly. 
+                In this project, I will show you how to elevate your instant noodle game with simple hacks that add flavor and variety without breaking the bank.</p>
+             <a href="#" class="view-project" data-img="ramen.JPG" style="color: #4f8cff;">View Project</a>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; 24229569_Muhammad Aryo Bimo Wicaksono.</p>
+    </footer>
+    <div id="projectModal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.7);justify-content:center;align-items:center;z-index:1000;">
+        <div style="background:#fff;padding:1rem;border-radius:10px;position:relative;max-width:90vw;max-height:90vh;">
+            <span id="closeModal" style="position:absolute;top:10px;right:20px;cursor:pointer;font-size:2rem;">&times;</span>
+            <img id="modalImg" src="" alt="Project Image" style="max-width:80vw;max-height:70vh;display:block;margin:auto;">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
